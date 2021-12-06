@@ -1,6 +1,12 @@
-<div class="container center">
-    <h2> NEWS </h2>
-    <ul *ngFor="let news of news">
-        <li> {{ news.judul }} - {{ news.tanggal }} - {{ news.isi }}</li>
-    </ul>
+<div class="col-lg-12 col-sm-12">
+    <h2 class="text-center"> NEWS </h2>
+    <div class="news-container">
+        <div class="news__card" *ngFor="let news of news">
+            <div class="news__card-body">
+                <h5 class="news__card-title">{{ news.title }}</h5>
+                <h5 class="news__card-date text-right">{{ news.date }}</h5>
+                <p class="news__card-details">{{ news.content }}</p>
+            </div>
+        </div>
+    </div>
 </div>
