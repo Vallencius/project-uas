@@ -9,7 +9,7 @@ export class NewsService {
 
   getNews = function(){
     return [
-      { "judul": "SKR", "tanggal": "14/11/2021", "isi": "Tes isi" },
+      { "judul": "Tes Judul", "tanggal": "14/11/2021", "isi": "Tes isi" },
       { "judul": "BDH", "tanggal": "14/11/2021", "isi": "Tes isi" },
       { "judul": "PRE", "tanggal": "14/11/2021", "isi": "Tes isi" },
       { "judul": "HMN", "tanggal": "14/11/2021", "isi": "Tes isi" },
