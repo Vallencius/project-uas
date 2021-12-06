@@ -1,1 +1,15 @@
-<p>developers-list works!</p>
+<div class="container">
+    <div class="row g-5">
+        <div class="col-lg-4 col-sm-6" data-aos="zoom-in" *ngFor="let news of news">
+            <div class="developer__card">
+                <div class="developer__card-image">
+                    <img class="card-img-top " src="{{ news.image }}" alt="developer images" title="Click for more informations about this developer">
+                </div>
+                <div class="developer__card-body">
+                    <h5 class="developer__card-title text-center">{{ news.name }}</h5>
+                    <h5 class="developer__card-title text-center">{{ news.NIM }}</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

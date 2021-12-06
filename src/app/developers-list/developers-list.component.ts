@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NewsService } from '../news.service';
 
 @Component({
   selector: 'app-developers-list',
@@ -6,10 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./developers-list.component.css']
 })
 export class DevelopersListComponent implements OnInit {
+  public news: any
+  constructor(private newsService: NewsService) { }
 
-  constructor() { }
-
-  ngOnInit(): void {
+  ngOnInit(){
+    this.news = this.newsService.getDevelopers();
   }
 
 }

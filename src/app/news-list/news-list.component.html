@@ -1,11 +1,14 @@
-<div class="col-lg-12 col-sm-12">
-    <h2 class="text-center"> NEWS </h2>
-    <div class="news-container">
-        <div class="news__card" *ngFor="let news of news">
-            <div class="news__card-body">
-                <h5 class="news__card-title">{{ news.title }}</h5>
-                <h5 class="news__card-date text-right">{{ news.date }}</h5>
-                <p class="news__card-details">{{ news.content }}</p>
+<div class="container">
+    <div class="row g-5">
+        <div class="col-lg-12 col-sm-12">
+            <div class="news-container">
+                <div class="news__card" *ngFor="let news of news">
+                    <div class="news__card-body">
+                        <h5 class="news__card-title">{{ news.title }}</h5>
+                        <h5 class="news__card-date text-right">{{ news.date }}</h5>
+                        <p class="news__card-details">{{ news.content }}</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

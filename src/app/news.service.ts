@@ -16,4 +16,12 @@ export class NewsService {
       { "title": "KSM", "date": "14/11/2021", "content": "Tes content" }
     ]
   }
+
+  getDevelopers = function(){
+    return[
+      { "name": "Antonius Kevin Budi Saputra", "NIM": "00000045444", "image": "../assets/images/fotoAnton.jpg" },
+      { "name": "Vallencius Gavriel Alfredo Siswanto", "NIM": "00000045651", "image": "../assets/images/fotoVallen.jpg" },
+      { "name": "Vanness Iwata", "NIM": "00000046190", "image": "../assets/images/fotoIwa.jpg" }
+    ]
+  }
 }
