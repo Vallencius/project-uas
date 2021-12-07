@@ -1,6 +1,6 @@
 .developer__card {
 	box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.4);
-	border-radius: 6px;
+	border-radius: 20px;
     margin: 15px;
 }
 
@@ -38,6 +38,8 @@
 
 .developer__card-image > img {
 	transition: all 0.3s ease;
+	height: 400px;
+	object-fit: cover;
 }
 
 .developer__card-image > img:hover {

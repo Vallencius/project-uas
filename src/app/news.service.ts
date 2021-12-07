@@ -19,8 +19,8 @@ export class NewsService {
 
   getDevelopers = function(){
     return[
-      { "name": "Antonius Kevin Budi Saputra", "NIM": "00000045444", "image": "../assets/images/fotoAnton.jpg" },
-      { "name": "Vallencius Gavriel Alfredo Siswanto", "NIM": "00000045651", "image": "../assets/images/fotoVallen.jpg" },
+      { "name": "Antonius Kevin B.S.", "NIM": "00000045444", "image": "../assets/images/fotoAnton.jpg" },
+      { "name": "Vallencius Gavriel A.S.", "NIM": "00000045651", "image": "../assets/images/fotoVallen.jpg" },
       { "name": "Vanness Iwata", "NIM": "00000046190", "image": "../assets/images/fotoIwa.jpg" }
     ]
   }
