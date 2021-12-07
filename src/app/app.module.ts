@@ -8,7 +8,6 @@ import { NewsListComponent } from './news-list/news-list.component';
 import { BlogsListComponent } from './blogs-list/blogs-list.component';
 import { DevelopersListComponent } from './developers-list/developers-list.component';
 import { LogInComponent } from './components/log-in/log-in.component';
-import { RegisterComponent } from './components/register/register.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AngularMaterialModule } from './angular-material.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
@@ -20,8 +19,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     NewsListComponent,
     BlogsListComponent,
     DevelopersListComponent,
-    LogInComponent,
-    RegisterComponent
+    LogInComponent
   ],
   imports: [
     BrowserModule,
