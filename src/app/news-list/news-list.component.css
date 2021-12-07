@@ -28,6 +28,8 @@
 	font-size: 16px;
 	font-weight: 600;
 	color: #242424;
+	text-align: justify;
+	justify-content: inter-word;
 }
 
 .news__card-details:hover {
