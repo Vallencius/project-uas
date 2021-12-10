@@ -8371,6 +8371,7 @@
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
+<<<<<<< Updated upstream
 .btnlogout{
   background: #5E5DF0;
   border-radius: 999px;
@@ -8391,3 +8392,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   border: 0;
   height: 50px;
 }
+=======
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+>>>>>>> Stashed changes
