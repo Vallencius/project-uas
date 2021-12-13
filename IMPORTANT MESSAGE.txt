@@ -1,0 +1,12 @@
+LINK FULL SOURCE CODE
+https://github.com/Vallencius/project-uas
+
+LANGKAH INSTALASI
+- Clone repoository
+- Buka CMD
+- Masuk ke directory project-uas
+- npm install
+- npm install firebase @angular/fire
+- ng add @angular/material
+- ng serve
+- buka http://localhost:4200/
